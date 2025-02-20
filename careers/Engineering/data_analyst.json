@@ -1,0 +1,71 @@
+{
+    "CareerCard": {
+        "Title": "Data Analyst",
+        "Enabled": 1,
+        "ImageMale": "static/images/male-data-analyst.png",
+        "ImageFemale": "static/images/female-data-analyst.png",
+        "Overview": "A Data Analyst is responsible for collecting, processing, and analyzing data to help organizations make informed decisions. They utilize statistical tools and techniques to interpret data sets and present actionable insights. The role is significant as it supports strategic planning and enhances operational efficiency.",
+        "Benefits and Challenges": {
+            "Benefits": [
+                "High demand for data analysts in various industries.",
+                "Opportunities for continuous learning and skill development.",
+                "Ability to work on diverse projects that impact business strategies.",
+                "Potential for career advancement into roles such as Data Scientist or Business Analyst."
+            ],
+            "Job Challenges": [
+                "May require long hours of data cleaning and preparation.",
+                "Can be challenging to communicate complex data findings to non-technical stakeholders.",
+                "Job can be repetitive and focused heavily on analytics tools.",
+                "Pressure to deliver insights quickly can be stressful."
+            ]
+        },
+        "Dual Impact Highlights": {
+            "Personal Growth": "This career fosters analytical thinking and problem-solving skills, enabling personal development and adaptability in various business environments.",
+            "Community Impact": "Data Analysts contribute to community well-being by providing insights that lead to better service delivery and policy-making in public sectors such as healthcare and education."
+        }
+    },
+    "Level1ScenarioCards": [
+        {
+            "Title": "Initial Challenge 1",
+            "Description": "As an entry-level Data Analyst, you are tasked with cleaning and organizing a messy dataset from a marketing campaign to prepare it for analysis.",
+            "DecisionCards": [
+                {
+                    "Option A": "Utilize automated data cleaning tools to streamline the process.",
+                    "Outcomes": {
+                        "PersonalImpact": "+Increased efficiency and proficiency in data tools.",
+                        "CommunityImpact": "+Faster insights for the marketing team to strategize effectively."
+                    }
+                },
+                {
+                    "Option B": "Manually review each entry in the dataset to ensure accuracy.",
+                    "Outcomes": {
+                        "PersonalImpact": "+Enhanced attention to detail and thorough understanding of the dataset.",
+                        "CommunityImpact": "+Accurate data leading to better-targeted marketing efforts."
+                    }
+                }
+            ]
+        }
+    ],
+    "Level2ScenarioCards": [
+        {
+            "Title": "Advanced Challenge 1",
+            "Description": "You have been assigned to analyze customer behavior data to identify trends and support the development of a new product line.",
+            "DecisionCards": [
+                {
+                    "Option A": "Conduct a thorough analysis and present your findings to the product development team.",
+                    "Outcomes": {
+                        "PersonalImpact": "+Boosted confidence in presenting data and influencing business decisions.",
+                        "CommunityImpact": "+Product development aligned with customer needs leading to higher satisfaction."
+                    }
+                },
+                {
+                    "Option B": "Collaborate with other analysts to integrate insights from multiple datasets before presenting.",
+                    "Outcomes": {
+                        "PersonalImpact": "+Improved collaboration and communication skills.",
+                        "CommunityImpact": "+Holistic insights that benefit the overall strategy and customer experience."
+                    }
+                }
+            ]
+        }
+    ]
+}

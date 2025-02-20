@@ -1,0 +1,68 @@
+{
+    "CareerCard": {
+        "Title": "Network Engineer",
+        "Overview": "A Network Engineer is responsible for the design, implementation, and management of computer networks that support in-house voice, data, video, and wireless network services. They play a crucial role in ensuring network connectivity, troubleshooting issues, and maintaining the security of networks, making their work essential for the smooth operation of business communications.",
+        "Benefits and Challenges": {
+            "Benefits": [
+                "High demand for skilled professionals in a growing field.",
+                "Opportunities for continuous learning and certifications.",
+                "Potential for remote work and flexible hours.",
+                "Competitive salary and benefits."
+            ],
+            "Job Challenges": [
+                "Can require on-call availability outside of regular hours.",
+                "Intense focus on troubleshooting may lead to stress.",
+                "Constant need to stay updated with rapidly changing technologies.",
+                "May involve repetitive tasks and documentation work."
+            ]
+        },
+        "Dual Impact Highlights": {
+            "Personal Growth": "This career enhances problem-solving skills and technical knowledge, fostering resilience and adaptability in a technology-driven world.",
+            "Community Impact": "Network Engineers contribute to the infrastructure that connects communities, enabling access to information and resources, which ultimately strengthens local economies and supports educational initiatives."
+        }
+    },
+    "Level1ScenarioCards": [
+        {
+            "Title": "Initial Challenge 1",
+            "Description": "As a new Network Engineer, you are tasked with setting up a basic local area network (LAN) for a small office.",
+            "DecisionCards": [
+                {
+                    "Option A": "Consult with a senior engineer for guidance on best practices.",
+                    "Outcomes": {
+                        "PersonalImpact": "+Skill development and mentorship.",
+                        "CommunityImpact": "+Improved network reliability for the office."
+                    }
+                },
+                {
+                    "Option B": "Attempt to configure the network independently based on online tutorials.",
+                    "Outcomes": {
+                        "PersonalImpact": "+Marking progress and gaining hands-on experience.",
+                        "CommunityImpact": "+Potential risks if network configuration is incorrect."
+                    }
+                }
+            ]
+        }
+    ],
+    "Level2ScenarioCards": [
+        {
+            "Title": "Advanced Challenge 1",
+            "Description": "You are tasked with upgrading the network infrastructure for a large corporation to improve performance and security.",
+            "DecisionCards": [
+                {
+                    "Option A": "Implement a new VLAN configuration to optimize traffic flow and security.",
+                    "Outcomes": {
+                        "PersonalImpact": "+Enhanced expertise in network segmentation.",
+                        "CommunityImpact": "+Secure data handling and improved service delivery to clients."
+                    }
+                },
+                {
+                    "Option B": "Contemplate a complete network overhaul using the latest technology.",
+                    "Outcomes": {
+                        "PersonalImpact": "+Gain recognition as an innovator in your field.",
+                        "CommunityImpact": "+Upgrade community connectivity and efficiency but with higher risks and costs."
+                    }
+                }
+            ]
+        }
+    ]
+}

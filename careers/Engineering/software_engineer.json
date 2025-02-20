@@ -1,0 +1,68 @@
+{
+    "CareerCard": {
+        "Title": "Software Engineer",
+        "Overview": "Software Engineers design, develop, test, and maintain software applications or systems. They play a critical role in translating user requirements into technical specifications and coding solutions that address these needs, ensuring functionality, efficiency, and reliability.",
+        "Benefits and Challenges": {
+            "Benefits": [
+                "High demand for skilled professionals, leading to job security.",
+                "Opportunities for remote work and flexible hours.",
+                "Potential for high salaries and career advancement.",
+                "Continual learning and adaptation to new technologies."
+            ],
+            "Job Challenges": [
+                "Can lead to long hours and work-related stress.",
+                "Job satisfaction can be affected by project deadlines and client demands.",
+                "Requires ongoing education to keep up with rapid technology changes.",
+                "May involve repetitive tasks and debugging processes."
+            ]
+        },
+        "Dual Impact Highlights": {
+            "Personal Growth": "This career promotes critical thinking, problem-solving skills, and creativity, as engineers must continuously innovate and adapt to evolving technologies and challenges.",
+            "Community Impact": "Software Engineers contribute to societal progress by developing applications that enhance communication, education, and access to services, thereby improving the quality of life for people in their communities."
+        }
+    },
+    "Level1ScenarioCards": [
+        {
+            "Title": "Initial Challenge 1",
+            "Description": "An entry-level Software Engineer is tasked with fixing bugs in an existing application to improve performance and user experience.",
+            "DecisionCards": [
+                {
+                    "Option A": "Collaborate with more experienced team members to identify and resolve the bugs.",
+                    "Outcomes": {
+                        "PersonalImpact": "+Develops teamwork skills and gains valuable insights.",
+                        "CommunityImpact": "+Enhances the application's reliability for end-users."
+                    }
+                },
+                {
+                    "Option B": "Attempt to fix the bugs independently using online resources and documentation.",
+                    "Outcomes": {
+                        "PersonalImpact": "+Increases self-reliance and problem-solving capabilities.",
+                        "CommunityImpact": "+Contributes to timely application updates for users."
+                    }
+                }
+            ]
+        }
+    ],
+    "Level2ScenarioCards": [
+        {
+            "Title": "Advanced Challenge 1",
+            "Description": "As a mid-level Software Engineer, you are responsible for leading the development of a new feature within the application, coordinating with both developers and stakeholders.",
+            "DecisionCards": [
+                {
+                    "Option A": "Implement agile methodologies to streamline development and foster communication.",
+                    "Outcomes": {
+                        "PersonalImpact": "+Improves leadership and project management skills.",
+                        "CommunityImpact": "+Results in a better-organized and more responsive development process."
+                    }
+                },
+                {
+                    "Option B": "Prioritize feature implementation based on stakeholder feedback, but risk overlooking technical limitations.",
+                    "Outcomes": {
+                        "PersonalImpact": "+Enhances understanding of business needs and client relations.",
+                        "CommunityImpact": "+May lead to a feature that doesn't fully address usage needs, affecting user satisfaction."
+                    }
+                }
+            ]
+        }
+    ]
+}

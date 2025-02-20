@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Career Card Game</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body class="custom-body">
+  
+<!-- Navigation Bar -->
+  <div class="navbar">
+    <h1>Career Card Game</h1>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <h1>Explore Your Dream Career</h1>
+  </div>
+
+  <!-- Narrative Section -->
+  <div class="narrative-container">
+    <p id="narrative"></p>
+  </div>
+  
+
+  <!-- Login Section -->
+  <div class="login-container">
+    <h2>Leave us your Details. We will help you!!</h2>
+    <form action="/" method="POST" >
+        <!-- Gender Selection -->
+        <div class="category-selection">
+            <div class="column">
+                <input type="radio" id="boy-12-14" name="category" value="12-14 years old boy" required>
+                <label for="boy-12-14">12-14 years old boy</label>
+        
+                <input type="radio" id="boy-15-18" name="category" value="15-18 years old boy" required>
+                <label for="boy-15-18">15-18 years old boy</label>
+            </div>
+            <div class="column">
+                <input type="radio" id="girl-12-14" name="category" value="12-14 years old girl" required>
+                <label for="girl-12-14">12-14 years old girl</label>
+        
+                <input type="radio" id="girl-15-18" name="category" value="15-18 years old girl" required>
+                <label for="girl-15-18">15-18 years old girl</label>
+            </div>
+        </div>        
+        
+      <input type="text" id="username" name="username" placeholder=" Your Good Name" required>
+      <button type="submit">Let's Start</button>
+
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    &copy; 2025 Career Card Game | All Rights Reserved
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/2.21.0/core.min.js"></script>
+
+
+</body>
+</html>

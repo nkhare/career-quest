@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Spin Wheel</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body class="game-body">
+    <div class="container">
+        <div class="heading">
+            <h1>Welcome, {{ username }}!</h1>
+            <h2>Ready to discover your Dream Career?</h2>
+            <h3>Spin the wheel and find out!</h3>
+
+        </div>
+
+        <canvas id="wheelCanvas" width="500" height="500"></canvas>
+        <!-- Dropdown Trigger -->
+        <br>
+        <h4>If you are not interested in spinning wheel explore the below career options!</h4>
+           
+        <div class="dropdown">
+            <button class="career-btn" id="dropdownButton" onclick="toggleDropdown()">Careers ▾</button>
+            <div class="dropdown-content" id="dropdownContent">
+                {% for job in jobs %}
+                    <a href="#" onclick="selectJob('{{ job }}')">{{ job }}</a>
+                {% endfor %}
+            </div>
+        </div>
+        
+        <p id="result"></p>
+        <button class="show-jobcard-btn" id="jobcardButton" style="display: none;"><b>Show Jobcard Details</b></button>
+        
+    </div>
+    <script>
+        let jobs = JSON.parse('{{ jobs | tojson | safe }}');
+    </script>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
