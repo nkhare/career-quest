@@ -327,9 +327,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     typewriter
       .pauseFor(500)
-      .typeString('It is important to find work that you enjoy and that makes you happy.')
+      .typeString('Choosing a career is a significant decision, as your work will occupy a large part of your life. ')
       .pauseFor(300)
-      .typeString(' As Steve Jobs wisely said, "The only way to do great work is to love what you do.')
+      .typeString('To find true satisfaction, pursue work you believe is meaningful and that you love.')
       .callFunction(() => {
         // Remove the cursor after typing is complete
         const cursor = document.querySelector('.Typewriter__cursor');
